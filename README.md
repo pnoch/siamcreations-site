@@ -10,7 +10,11 @@ The company site at the apex. One page, no build step, no JavaScript.
 
 ## Serving it
 
-GitHub Pages, from the repository root of the default branch.
+GitHub Pages, from the repository root of the default branch. The repository
+must stay **public**: Pages on a private repository needs a paid plan, and the
+first attempt at this one was created private by mistake (`private=false` as a
+string was ignored), which produced
+`422 — your current plan does not support GitHub Pages for this repository`.
 
 ## DNS (IONOS)
 
