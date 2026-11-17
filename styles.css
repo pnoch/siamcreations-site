@@ -404,3 +404,44 @@ footer.site a:hover {
 .notes strong {
   color: var(--text);
 }
+
+/* Legal pages */
+.legal {
+  max-width: 760px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.legal h1 {
+  font-size: clamp(28px, 4.5vw, 38px);
+  letter-spacing: -0.02em;
+  margin: 0 0 6px;
+}
+
+.legal .updated {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0 0 26px;
+}
+
+.legal h2 {
+  font-size: 19px;
+  margin: 30px 0 8px;
+}
+
+.legal p,
+.legal li {
+  color: var(--muted);
+}
+
+.legal ul {
+  padding-left: 20px;
+}
+
+.legal li {
+  margin: 8px 0;
+}
+
+.legal strong {
+  color: var(--text);
+}
