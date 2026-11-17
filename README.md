@@ -4,8 +4,7 @@ The company site at the apex. One page, no build step, no JavaScript.
 
 - `index.html` — the page
 - `styles.css` — design tokens shared with the OmniHub site
-- `CNAME.example` — rename to `CNAME` once the apex DNS points here; Pages
-  claims the custom domain as soon as that file is present
+- `CNAME` — `siamcreations.app`, the custom domain Pages serves
 - `404.html` — fallback for unknown paths
 
 ## Serving it
