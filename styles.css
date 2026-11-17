@@ -195,8 +195,14 @@ a:focus-visible {
   font-size: 14px;
 }
 
+/* `.wrap` is a class, so it outranks the element rule below and was wiping the
+   vertical padding on every `<section class="wrap">`. Set it where it wins. */
 section {
   padding: 56px 0;
+}
+
+section.wrap {
+  padding: 56px 20px;
 }
 
 h2 {
@@ -428,7 +434,8 @@ footer.site a:hover {
     padding-top: 48px;
   }
 
-  section {
-    padding: 40px 0;
+  section,
+  section.wrap {
+    padding: 40px 20px;
   }
 }
