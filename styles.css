@@ -368,3 +368,39 @@ footer.site a:hover {
     padding: 40px 20px;
   }
 }
+
+/* Pricing page */
+.page-title {
+  font-size: clamp(30px, 5vw, 44px);
+  letter-spacing: -0.02em;
+  margin: 0 0 10px;
+}
+
+.price-line {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.notes {
+  margin-top: 40px;
+}
+
+.notes h2 {
+  font-size: clamp(20px, 2.6vw, 26px);
+}
+
+.notes ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+  max-width: 680px;
+}
+
+.notes li {
+  margin: 10px 0;
+}
+
+.notes strong {
+  color: var(--text);
+}
