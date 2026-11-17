@@ -7,8 +7,6 @@
   --primary: #4f46e5;
   --primary-text: #ffffff;
   --accent: #eef2ff;
-  --warning: #b45309;
-  --warning-bg: #fffbeb;
   --radius: 14px;
   --max: 980px;
 }
@@ -23,8 +21,6 @@
     --primary: #818cf8;
     --primary-text: #0b1020;
     --accent: #17203a;
-    --warning: #fbbf24;
-    --warning-bg: #1f1a0d;
   }
 }
 
@@ -289,23 +285,6 @@ h2 {
 
 .product .price {
   font-weight: 700;
-}
-
-.badge {
-  align-self: flex-start;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 4px 10px;
-  border-radius: 999px;
-  background: var(--accent);
-  color: var(--primary);
-}
-
-.badge.soon {
-  background: var(--warning-bg);
-  color: var(--warning);
 }
 
 /* Product shots: one link per product, the image doing the talking. */
